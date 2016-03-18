@@ -1,0 +1,36 @@
+//
+//  LPrefixHeader.pch
+//  TimeFM
+//
+//  Created by 深圳市深软信息技术有限公司 on 16/3/15.
+//  Copyright © 2016年 Liang Zhicheng. All rights reserved.
+//
+
+#ifndef LPrefixHeader_pch
+#define LPrefixHeader_pch
+
+#ifdef __OBJC__
+
+//功能类与宏定义
+#import "APPHeader.h"
+#import "LDefination.h"
+#import "LHTTPManager.h"
+#import "LMD5.h"
+#import "LAddress.h"
+//框架
+#import "Masonry.h"
+#import "KVNProgress.h"
+#import "FFCyleView.h"
+#import "Toast+UIView.h"
+#import "SDImageCache.h"
+//app代理
+#import "AppDelegate.h"
+
+#endif
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LPrefixHeader_pch */
